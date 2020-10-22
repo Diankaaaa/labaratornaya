@@ -35,7 +35,7 @@ namespace labaratornaya
             int n;
             n = int.Parse(Vvod.Text);
 
-            int result = n % 10;
+            int result = n % 10; //Получаем последнюю цифру числа, от которой зависит форма слова "копейка"
             if (n >= 20 || n < 10)
             {
                 switch (result)
