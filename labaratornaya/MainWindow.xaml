@@ -1,0 +1,17 @@
+﻿<Window x:Class="labaratornaya.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:labaratornaya"
+        mc:Ignorable="d"
+        Title="Лабораторная работа" Height="450" Width="372">
+    <Grid Background="#FF2B2B2B">
+        <Label Content="Введите количество копеек" HorizontalAlignment="Left" Height="37" Margin="94,27,0,0" VerticalAlignment="Top" Width="191" Foreground="White"/>
+        <TextBox x:Name="Vvod" HorizontalAlignment="Left" Height="33" Margin="96,69,0,0" TextWrapping="Wrap" Text=" " VerticalAlignment="Top" Width="166" TextChanged="TextBox_TextChanged" RenderTransformOrigin="-0.843,0.576" BorderBrush="Black" Background="#FF535353" SelectionBrush="{x:Null}" Foreground="White"/>
+        <Button x:Name="Button" Content="Вычислить" HorizontalAlignment="Left" Height="29" Margin="108,130,0,0" VerticalAlignment="Top" Width="131" Click="Button_Click" Foreground="White" BorderBrush="Black" Background="#FF535353"/>
+        <TextBlock x:Name="Result" HorizontalAlignment="Left" Height="105" Margin="96,235,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="166" Foreground="White" Background="#FF535353"/>
+        <Label Content="Результат:" HorizontalAlignment="Left" Height="33" Margin="96,202,0,0" VerticalAlignment="Top" Width="105" Foreground="White"/>
+
+    </Grid>
+</Window>
