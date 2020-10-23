@@ -1,4 +1,4 @@
-﻿using System;
+Gu﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -36,7 +36,7 @@ namespace labaratornaya
             n = int.Parse(Vvod.Text);
 
             int result = n % 10; //Получаем последнюю цифру числа, от которой зависит форма слова "копейка"
-            if (n >= 20 || n < 10)
+            if (n >= 20 || n < 10) // Числа от 11 до 19 включительно, попадют в else. Поэтому >= 20
             {
                 switch (result)
                 {
