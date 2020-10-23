@@ -32,7 +32,7 @@ namespace labaratornaya
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            int n;
+            int n; // Переменная для ввода количества копеек
             n = int.Parse(Vvod.Text);
 
             int result = n % 10; //Получаем последнюю цифру числа, от которой зависит форма слова "копейка"
